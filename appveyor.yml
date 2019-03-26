@@ -28,3 +28,6 @@ build_script:
   - yarn build
 
 test: off
+
+test_script:
+  - shellcheck -V
